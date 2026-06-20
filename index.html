@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seoul · Two Days</title>
+<style>
+  :root{
+    --ink:#1d1a16; --paper:#f5f0e6; --card:#fffdf8; --line:#e0d7c4;
+    --green:#4f7d6b; --accent:#c2562f; --muted:#7a7062;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Iowan Old Style","Palatino Linotype",Georgia,serif;background:var(--paper);color:var(--ink);line-height:1.5}
+  .wrap{max-width:680px;margin:0 auto;padding:34px 18px 70px}
+  h1{font-size:clamp(28px,7vw,42px);font-weight:400;letter-spacing:-.01em;line-height:1.02}
+  .sub{color:var(--muted);font-size:14.5px;margin:10px 0 4px;max-width:52ch}
+  .list{margin:26px 0 10px;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)}
+  .list h2{font-family:"DIN Alternate","Helvetica Neue",Arial,sans-serif;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-weight:700;padding:12px 2px 9px}
+  .dayrow{font-family:"DIN Alternate","Helvetica Neue",Arial,sans-serif;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);font-weight:700;padding:13px 2px 7px;border-top:1px solid var(--line)}
+  .list details{border-top:1px solid var(--line)}
+  .list summary{list-style:none;cursor:pointer;display:flex;gap:10px;align-items:baseline;padding:8px 2px;font-size:15.5px}
+  .list summary::-webkit-details-marker{display:none}
+  .list summary .n{font-family:"DIN Alternate","Helvetica Neue",Arial,sans-serif;font-weight:700;color:var(--green);min-width:22px}
+  .list summary .nm{flex:1 1 auto}
+  .list summary .mk{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-family:"DIN Alternate","Helvetica Neue",Arial,sans-serif;align-self:center}
+  .list summary .chev{color:var(--green);font-size:12px;align-self:center;transition:transform .2s ease;margin-left:8px}
+  .list details[open] summary .chev{transform:rotate(90deg)}
+  .list details[open] summary{padding-bottom:4px}
+  .detail{padding:2px 2px 16px 32px}
+  .photo{display:block;width:100%;height:170px;object-fit:cover;border-radius:4px;margin:8px 0 12px;background:#eee}
+  .time{font-family:"DIN Alternate","Helvetica Neue",Arial,sans-serif;font-size:12px;letter-spacing:.05em;color:var(--muted);margin-bottom:9px}
+  .desc{font-size:14.5px;color:#39342c;margin-bottom:10px}
+  .tip{font-size:13px;color:var(--muted);font-style:italic;margin-bottom:12px}
+  .naver{display:inline-flex;align-items:center;gap:6px;background:#03c75a;color:#fff;text-decoration:none;font-family:"DIN Alternate","Helvetica Neue",Arial,sans-serif;font-size:12.5px;font-weight:700;letter-spacing:.04em;padding:8px 14px;border-radius:3px}
+  .note{background:#efe8d8;border:1px solid var(--line);border-radius:5px;padding:15px 16px;margin-top:26px;font-size:13.5px;color:#39342c}
+  .note b{color:var(--accent)}
+  .note p{margin-bottom:7px}.note p:last-child{margin-bottom:0}
+  footer{margin-top:24px;text-align:center;font-size:11.5px;color:var(--muted);font-family:"DIN Alternate","Helvetica Neue",Arial,sans-serif;letter-spacing:.05em}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Seoul · Two Days</h1>
+  <p class="sub">From Euljiro 3-ga. Tap any item to expand. Stops can move between days, swap, or be skipped. Map links open in Naver (Google won't navigate in Korea).</p>
+  <div class="list">
+    <h2>At a glance</h2>
+    <div class="dayrow">Day A · stream, gates &amp; hanok loop</div>
+    <details>
+      <summary><span class="n">1</span><span class="nm">Cheonggye Plaza &amp; stream</span><span class="chev">›</span></summary>
+      <div class="detail">
+        <img class="photo" loading="lazy" alt="Cheonggyecheon stream" src="https://lh3.googleusercontent.com/place-photos/AJRVUZNuRjszWc0ssJspC0VfCly7gGppL0HH_VenVokrl2m4LF667nImrQWFtbZOX5BvZUE7cUeM941BRr7hkf7NToiE5AQTCpr1MExnjDqxqVZhH07uknpcSRStwjWyaiqw-hSbMcQznxX0wrLFfUN0rIohlA=s1600-w800-h600">
+        <div class="time">~10:00 · 60–75 min · open 24h · ~10 min walk from base</div>
+        <div class="desc">Head of the restored stream. Drop below street level and walk east beside the water — stepping-stone crossings, shade, occasional art.</div>
+        <a class="naver" href="https://map.naver.com/p/search/청계광장" target="_blank" rel="noopener">Open in Naver</a>
+      </div>
+    </details>
+    <details>
+      <summary><span class="n">2</span><span class="nm">DDP</span><span class="mk">optional · quick</span><span class="chev">›</span></summary>
+      <div class="detail">
+        <img class="photo" loading="lazy" alt="Dongdaemun Design Plaza" src="https://lh3.googleusercontent.com/place-photos/AJRVUZOL5fzB_gIH5ltBPDk8bO9mSZQ5Wz2Ccw5QgglAfGeBfMP8ba-tzQLJ6TQQdVPf5Uge9H8m6DNt-DBxu_XpvLFICyNz8jc1l2AT-nfYBtxXDa5yt25j1asG4r6XM9-QOEF2koFnvlcU75_sqA=s1600-w800-h600">
+        <div class="time">~11:30 · 30–45 min · 10:00–20:00</div>
+        <div class="desc">Zaha Hadid's flowing silver landmark at the east end of the walk. Architecture and a photo; free galleries inside if you want more.</div>
+        <div class="tip">Some find the interior under-used and the design shops pricey — hence a quick look.</div>
+        <a class="naver" href="https://map.naver.com/p/search/동대문디자인플라자" target="_blank" rel="noopener">Open in Naver</a>
+      </div>
+    </details>
+    <details>
+      <summary><span class="n">3</span><span class="nm">Heunginjimun — East Gate</span><span class="chev">›</span></summary>
+      <div class="detail">
+        <img class="photo" loading="lazy" alt="Heunginjimun East Gate" src="https://lh3.googleusercontent.com/place-photos/AJRVUZNAJBuRyfdtVFsQuM_o8pN6VsWNB6YfaxbXpQ6pxR8wYECtLy1_KMKVTjOEJZE_gPVIcJmBeBtqZNeV8RajhG1zmLmEDQ9c_mOAR9ceW3RHBLwtuKROspB30Rzlp7WmsifVAAvciBdYKwjD=s1600-w800-h600">
+        <div class="time">~12:20 · 20–30 min · 3-min walk from DDP</div>
+        <div class="desc">The "Great East Gate," a Joseon-era National Treasure with a distinctive semicircular defensive wall curving around its front. Viewed from outside; a short stretch of old city wall sits in the park behind.</div>
+        <a class="naver" href="https://map.naver.com/p/search/흥인지문" target="_blank" rel="noopener">Open in Naver</a>
+      </div>
+    </details>
+    <details>
+      <summary><span class="n">4</span><span class="nm">Gwangjang Market — lunch</span><span class="mk">pick one / both</span><span class="chev">›</span></summary>
+      <div class="detail">
+        <img class="photo" loading="lazy" alt="Gwangjang Market" src="https://lh3.googleusercontent.com/place-photos/AJRVUZPMH4Yl7MhsvpN5G6dnlNQtoioxEKLIjPqkwT65xYRhd8rx_NBZT9KTWGb0kCqlLEh8sTB0snvYO99eoCpgnmgJNq9gAr5ZdR7D14WkiplVD3_xRLY4LYu-DedlxfNANKAlvGYQb9hmBf-yUQ=s1600-w800-h600">
+        <div class="time">~13:00 · 45–60 min · on the stream, west of DDP</div>
+        <div class="desc">Lively old food market — mung-bean pancakes, mayak gimbap, tteokbokki, made in front of you. The kid-friendly counterpart to café-hopping, right on the stream path back toward base.</div>
+        <a class="naver" href="https://map.naver.com/p/search/광장시장" target="_blank" rel="noopener">Open in Naver</a>
+      </div>
+    </details>
+    <details>
+      <summary><span class="n">5</span><span class="nm">Ikseon-dong + dessert</span><span class="mk">pick one / both</span><span class="chev">›</span></summary>
+      <div class="detail">
+        <img class="photo" loading="lazy" alt="Ikseon-dong hanok alley" src="https://lh3.googleusercontent.com/place-photos/AJRVUZOWEN03tA5TbrvvAmhYLiXbEd_zph7AM-sFO4OYP-BwFpLfy3jCpoGZ2a7cAiqjjXizOW7cPT717SpN6q9Qx1kFiN8J_gdU_IgSTkAuEZKt642ZQRdRoGORxTMqHLksGZfDAX-TrXbtmo0NuFE=s1600-w800-h600">
+        <div class="time">~14:15 · 45–75 min · by Jongno 3-ga</div>
+        <div class="desc">Maze of restored 1920s hanok turned into cafés and small shops. Adult-leaning — for kids it's a dessert-and-explore stop.</div>
+        <div class="tip">Pick the busiest-looking bingsu (shaved-ice) hanok café in the central lane; order one big bowl to share and ask for extra spoons up front. If one has a queue, the next alley has another.</div>
+        <a class="naver" href="https://map.naver.com/p/search/익선동한옥거리" target="_blank" rel="noopener">Open in Naver</a>
+      </div>
+    </details>
+    <div class="dayrow">Day B · markets, shopping &amp; a view</div>
+    <details>
+      <summary><span class="n">6</span><span class="nm">Namdaemun Market</span><span class="chev">›</span></summary>
+      <div class="detail">
+        <img class="photo" loading="lazy" alt="Namdaemun Market" src="https://lh3.googleusercontent.com/place-photos/AJRVUZPMH4Yl7MhsvpN5G6dnlNQtoioxEKLIjPqkwT65xYRhd8rx_NBZT9KTWGb0kCqlLEh8sTB0snvYO99eoCpgnmgJNq9gAr5ZdR7D14WkiplVD3_xRLY4LYu-DedlxfNANKAlvGYQb9hmBf-yUQ=s1600-w800-h600">
+        <div class="time">~11:00 · 90–120 min · Sun 11:00–17:00</div>
+        <div class="desc">Seoul's biggest, oldest market — clothing, souvenirs, kitchenware, and the famous kalguksu (knife-cut noodle) alley for a cheap, hot lunch.</div>
+        <a class="naver" href="https://map.naver.com/p/search/남대문시장" target="_blank" rel="noopener">Open in Naver</a>
+      </div>
+    </details>
+    <details>
+      <summary><span class="n">7</span><span class="nm">Sungnyemun — South Gate</span><span class="chev">›</span></summary>
+      <div class="detail">
+        <img class="photo" loading="lazy" alt="Sungnyemun South Gate" src="https://lh3.googleusercontent.com/place-photos/AJRVUZNAJBuRyfdtVFsQuM_o8pN6VsWNB6YfaxbXpQ6pxR8wYECtLy1_KMKVTjOEJZE_gPVIcJmBeBtqZNeV8RajhG1zmLmEDQ9c_mOAR9ceW3RHBLwtuKROspB30Rzlp7WmsifVAAvciBdYKwjD=s1600-w800-h600">
+        <div class="time">~13:00 · 20 min · Tue–Sun 09:00–18:00 (closed Mon)</div>
+        <div class="desc">National Treasure No. 1, built 1398 as the walled city's main southern entrance. A short walk from the market — walk through the arch into the grounds, free; lovely lit at night.</div>
+        <a class="naver" href="https://map.naver.com/p/search/숭례문" target="_blank" rel="noopener">Open in Naver</a>
+      </div>
+    </details>
+    <details>
+      <summary><span class="n">8</span><span class="nm">Myeongdong — shops &amp; food</span><span class="chev">›</span></summary>
+      <div class="detail">
+        <img class="photo" loading="lazy" alt="Myeongdong street" src="https://lh3.googleusercontent.com/place-photos/AJRVUZNcRpQt0pef3WW5JVCkWGLXL017HXTFcJYkghi5owPcQh3EnHeN1GXJo6YTyZ9fB_H8BWSfMW1rUkQ3Rb6F5ZZmodPquEUjgiY-gE-MJHzR7wCHe2iszwAIy5vBB7FcH5QBT1Ap4Z9nFP3X8w=s1600-w800-h600">
+        <div class="time">~13:30 · 2–3 hr · 15-min walk / one stop</div>
+        <div class="desc">K-beauty, fashion and big stores: Lotte &amp; Shinsegae department stores, the 12-floor Daiso, Olive Young. Street-food carts (corn dogs, tteokbokki, hotteok) build up through the afternoon.</div>
+        <a class="naver" href="https://map.naver.com/p/search/명동" target="_blank" rel="noopener">Open in Naver</a>
+      </div>
+    </details>
+    <details>
+      <summary><span class="n">9</span><span class="nm">N Seoul Tower</span><span class="mk">optional · sunset</span><span class="chev">›</span></summary>
+      <div class="detail">
+        <img class="photo" loading="lazy" alt="N Seoul Tower at night" src="https://lh3.googleusercontent.com/place-photos/AJRVUZN3nLg18dGdgKTLIcSitLiUSoR6Za21PQpKmf5Ze-oQ3rv0bLgrdBuoMxdNG49S_cetn97EDIdRJidUVsBt7NDi-Jn96eTAtr9oI1ESW7pIvjWmdHAnXeTsnn4DNt_g5tIUfqIdHjTLgt6EWy8=s1600-w800-h600">
+        <div class="time">~17:30 · 2 hr · open to ~22:30 · cable car near Myeongdong</div>
+        <div class="desc">Namsan cable car up to the love-lock fences and 360° views — best at sunset. Low-commitment; decide on the day by weather and energy.</div>
+        <div class="tip">One evening highlight per day: do the tower here and put the cruise on Day A; skip it and the cruise becomes Day B's finish.</div>
+        <a class="naver" href="https://map.naver.com/p/search/N서울타워" target="_blank" rel="noopener">Open in Naver</a>
+      </div>
+    </details>
+    <div class="dayrow">Floats · attach to either day</div>
+    <details>
+      <summary><span class="n">10</span><span class="nm">Han River cruise</span><span class="mk">optional · evening</span><span class="chev">›</span></summary>
+      <div class="detail">
+        <div class="time">~60–90 min · evening best · from Yeouido or Ttukseom</div>
+        <div class="desc">Sit-down sightseeing along the river past the lit skyline and bridges. Riverside parks at the docks are good for a pre-cruise stroll or a convenience-store picnic.</div>
+        <div class="tip">Confirm the dock (Yeouido vs Ttukseom) when you book — operators and times vary.</div>
+        <a class="naver" href="https://map.naver.com/p/search/여의도 한강유람선" target="_blank" rel="noopener">Open in Naver</a>
+      </div>
+    </details>
+  </div>
+  <div class="note">
+    <p><b>How to mix &amp; match</b></p>
+    <p>Keep the un-marked stops and you have a working day; "optional" ones move or drop freely.</p>
+    <p>Day A finish (4 &amp; 5): Gwangjang and Ikseon-dong sit minutes apart — do both, or pick one.</p>
+    <p>The two view stops (9 &amp; 10) never share a day.</p>
+    <p>Both gates are in: East Gate on Day A, South Gate on Day B.</p>
+    <p>Day A is walkable end-to-end; Day B is one subway stop or 15-min walk from Euljiro 3-ga.</p>
+  </div>
+  <footer>Times are suggestions, not rails · photos load when online</footer>
+</div>
+</body>
+</html>
